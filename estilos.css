@@ -1,0 +1,288 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;    letter-spacing: 1.2px;
+} 
+
+:root{
+    --primary-color: #eb5757;
+    --second-color: #222;
+    --light-color: #f9f9f9;
+    --blas-color: #333;
+}
+
+header{
+    width: 100vw;
+    height: 150px;
+    position: fixed;
+    background-color: var(--primary-color);
+    z-index: 1;
+}
+
+header .covid{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--light-color);
+    background-color: var(--second-color);
+}
+
+header .covid button{
+    width: 140px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+header .covid p{
+    font-size: 18px;
+}
+
+header .menu{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 10px; */
+    color: var(--light-color);
+}
+
+header .menu div a{
+    height: 35px;
+    width: 75px;
+    padding-top: 8px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--light-color);
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+header .menu div a:hover{
+    background-color: var(--second-color);
+}
+
+
+
+header .menu div button{
+    width: 45px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: var(--second-color);
+    background-image: url(Carrito\ de\ compras.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border: none;
+    position: relative;
+}
+
+header .menu div button span{
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+    padding-left: 3px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 40px;
+    text-align: center;
+    color: var(--blas-color);
+    background-color: var(--light-color);
+}
+
+body{
+    font-family: Sen, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.servicio{
+    width: 35%;
+    position: relative;
+    top: -450px;
+    left: 75px;
+    font-size: 62px;
+    line-height: 1.2;
+    color: var(--light-color);
+}
+
+.texto{
+    width: 35%;
+    position: relative;
+    top: -430px;
+    left: 75px;
+    margin-bottom: 25px;
+    color: var(--light-color);
+    font-size: 18px;
+}
+
+.trans{
+    position: relative;
+    top: -410px;
+    left: 75px;
+    width: 140px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0%);
+    color: var(--light-color);
+    border-color: var(--light-color);
+    display: inline-block;
+    padding: 9px 15px;
+    line-height: inherit;
+    cursor: pointer;
+}
+
+.soporte{
+    width: 100vw;
+    position: relative;
+    top: -200px;
+    left: 75px;
+}
+
+.titulo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.texto2{
+    width: 45%;
+    position: relative;
+    top: -80px;
+    left: 585px;
+    margin-bottom: 25px;
+    color: var(--blas-color);
+    font-size: 18px;
+}
+
+.art1{
+    background-color: var(--second-color);
+    height: 390px;
+    width: 350px;
+    position: relative;
+    top: -250px;
+    left: 80px;
+    border-radius: 5px;
+}
+
+.art2{
+    background-color: var(--second-color);
+    height: 390px;
+    width: 350px;
+    position: relative;
+    top: -734px;
+    left: 485px;
+    border-radius: 5px;
+}
+
+.art3{
+    background-color: var(--second-color);
+    height: 390px;
+    width: 350px;
+    position: relative;
+    top: -1221.5px;
+    left: 900px;
+    border-radius: 5px;
+}
+
+body main section div .art1 span{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    right: auto;
+    bottom: auto;
+    color: #f9f9f9;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+body main section div .art2 span{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    right: auto;
+    bottom: auto;
+    color: #f9f9f9;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+body main section div .art3 span{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    right: auto;
+    bottom: auto;
+    color: #f9f9f9;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+body main section div .art1 h3{
+    color: #f9f9f9;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: 35%;
+}
+
+body main section div .art2 h3{
+    color: #f9f9f9;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: 35%;
+}
+
+body main section div .art3 h3{
+    color: #f9f9f9;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: 35%;
+}
+
+.text-art1{
+    width: 350px;
+    position: relative;
+    top: -195px;
+    left: 66px;
+    display: flex;
+}
+
+.text-art2{
+    width: 300px;
+    position: relative;
+    top: -700px ;
+    left: 500px;
+    display: flex;
+}
+
+.text-art3{
+    width: 300px;
+    position: relative;
+    top: -1200px ;
+    left: 930px;
+    display: flex;
+}
